@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+h1 {
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(238, 242, 255);
+}
+
+.box-main {
+  display: flex;
+  flex-direction: row;
+  width: 736px;
+  height: 512px;
+  background-color: white;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.box-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 368px;
+  height: 512px;
+  background-color: rgb(98, 70, 255);
+  border-radius: 32px;
+}
+
+.box-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+}
+
+.box-right-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 300px;
+  height: 520px;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.box-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #6246ff 0%, #3b27c5 100%);
+}
+
+.box-total-scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+  height: 272px;
+  gap: 14px;
+}
+
+.box-reaction {
+  display: flex;
+  width: 288px;
+  height: 56px;
+  background-color: rgba(255, 85, 85, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.box-reaction-inner-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 85, 85);
+  font-weight: 500;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.box-reaction-inner-right {
+  width: 50%;
+  text-align: right;
+  color: rgb(48, 59, 89);
+  font-weight: 700;
+}
+
+.box-memory {
+  display: flex;
+  width: 288px;
+  height: 56px;
+  background-color: rgba(255, 178, 30, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.box-memory-inner-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 178, 30);
+  font-weight: 500;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.box-memory-inner-right {
+  width: 50%;
+  text-align: right;
+  color: rgb(48, 59, 89);
+  font-weight: 700;
+}
+
+.box-verbal {
+  display: flex;
+  width: 288px;
+  height: 56px;
+  background-color: rgba(0, 187, 143, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.box-verbal-inner-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 187, 143);
+  font-weight: 500;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.box-verbal-inner-right {
+  width: 50%;
+  text-align: right;
+  color: rgb(48, 59, 89);
+  font-weight: 700;
+}
+
+.box-visual {
+  display: flex;
+  width: 288px;
+  height: 56px;
+  background-color: rgba(17, 37, 214, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.box-visual-inner-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: rgb(17, 37, 214);
+  font-weight: 500;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.box-visual-inner-right {
+  width: 50%;
+  text-align: right;
+  color: rgb(48, 59, 89);
+  font-weight: 700;
+}
+
+.box-continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  font-size: 18px;
+  border-radius: 128px;
+  color: white;
+  background: linear-gradient(0deg, #7755ff 0%, #6943ff 50%, #2f2ce9 100%);
+}
+
+.text-result {
+  font-weight: 700;
+  width: 125px;
+  height: 31px;
+  font-size: 24px;
+  text-align: center;
+  color: #cac9ff;
+}
+
+.text-score {
+  font-weight: 800;
+  width: 81px;
+  height: 72px;
+  font-size: 72px;
+  text-align: center;
+  color: white;
+}
+
+.text-total-score {
+  font-weight: 800;
+  width: 52px;
+  height: 23px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  opacity: 0.5;
+}
+
+.text-great {
+  font-weight: 700;
+  width: 83px;
+  height: 42px;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+
+.text-lower {
+  font-weight: 500;
+  width: 260px;
+  height: 69px;
+  font-size: 18px;
+  text-align: center;
+  color: #cac9ff;
+}
+
+.text-summary {
+  align-self: flex-start;
+  font-weight: 700;
+  width: 104px;
+  height: 31px;
+  font-size: 24px;
+  text-align: left;
+  color: #303b59;
+}
+
+.text-opacity-50 {
+  opacity: 0.5;
+}
