@@ -4,26 +4,37 @@
   font-family: "Hanken Grotesk", sans-serif;
 }
 
-h1 {
-  margin: 10px;
-}
-
 body {
   background-color: rgb(238, 242, 255);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
-.box-main {
+.box_main {
   display: flex;
   flex-direction: row;
   width: 736px;
   height: 512px;
   background-color: white;
   border-radius: 32px;
-  margin: 0 auto;
-  margin-top: 10px;
+  align-self: center;
+  margin: auto 0;
 }
 
-.box-left {
+h1 {
+  margin: 20px 10px 10px 10px;
+  text-align: left;
+}
+
+h3 {
+  margin: 10px 10px 20px 10px;
+  text-align: left;
+}
+
+.box_left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +45,7 @@ body {
   border-radius: 32px;
 }
 
-.box-right {
+.box_right {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +54,7 @@ body {
   border-radius: 32px;
 }
 
-.box-right-inner {
+.box_right_inner {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -54,7 +65,7 @@ body {
   gap: 20px;
 }
 
-.box-circle {
+.box_circle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +76,7 @@ body {
   background: linear-gradient(0deg, #6246ff 0%, #3b27c5 100%);
 }
 
-.box-total-scores {
+.box_total_scores {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +85,7 @@ body {
   gap: 14px;
 }
 
-.box-reaction {
+.box_reaction {
   display: flex;
   width: 288px;
   height: 56px;
@@ -85,7 +96,7 @@ body {
   padding: 0 16px;
 }
 
-.box-reaction-inner-left {
+.box_reaction_inner_left {
   width: 50%;
   display: flex;
   align-items: center;
@@ -95,14 +106,14 @@ body {
   gap: 8px;
 }
 
-.box-reaction-inner-right {
+.box_reaction_inner_right {
   width: 50%;
   text-align: right;
   color: rgb(48, 59, 89);
   font-weight: 700;
 }
 
-.box-memory {
+.box_memory {
   display: flex;
   width: 288px;
   height: 56px;
@@ -113,7 +124,7 @@ body {
   padding: 0 16px;
 }
 
-.box-memory-inner-left {
+.box_memory_inner_left {
   width: 50%;
   display: flex;
   align-items: center;
@@ -123,14 +134,14 @@ body {
   gap: 8px;
 }
 
-.box-memory-inner-right {
+.box_memory_inner_right {
   width: 50%;
   text-align: right;
   color: rgb(48, 59, 89);
   font-weight: 700;
 }
 
-.box-verbal {
+.box_verbal {
   display: flex;
   width: 288px;
   height: 56px;
@@ -141,7 +152,7 @@ body {
   padding: 0 16px;
 }
 
-.box-verbal-inner-left {
+.box_verbal_inner_left {
   width: 50%;
   display: flex;
   align-items: center;
@@ -151,14 +162,14 @@ body {
   gap: 8px;
 }
 
-.box-verbal-inner-right {
+.box_verbal_inner_right {
   width: 50%;
   text-align: right;
   color: rgb(48, 59, 89);
   font-weight: 700;
 }
 
-.box-visual {
+.box_visual {
   display: flex;
   width: 288px;
   height: 56px;
@@ -169,7 +180,7 @@ body {
   padding: 0 16px;
 }
 
-.box-visual-inner-left {
+.box_visual_inner_left {
   width: 50%;
   display: flex;
   align-items: center;
@@ -179,14 +190,14 @@ body {
   gap: 8px;
 }
 
-.box-visual-inner-right {
+.box_visual_inner_right {
   width: 50%;
   text-align: right;
   color: rgb(48, 59, 89);
   font-weight: 700;
 }
 
-.box-continue {
+.box_continue {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +209,7 @@ body {
   background: linear-gradient(0deg, #7755ff 0%, #6943ff 50%, #2f2ce9 100%);
 }
 
-.text-result {
+.text_result {
   font-weight: 700;
   width: 125px;
   height: 31px;
@@ -207,7 +218,7 @@ body {
   color: #cac9ff;
 }
 
-.text-score {
+.text_score {
   font-weight: 800;
   width: 81px;
   height: 72px;
@@ -216,7 +227,7 @@ body {
   color: white;
 }
 
-.text-total-score {
+.text_total_score {
   font-weight: 800;
   width: 52px;
   height: 23px;
@@ -227,7 +238,7 @@ body {
   opacity: 0.5;
 }
 
-.text-great {
+.text_great {
   font-weight: 700;
   width: 83px;
   height: 42px;
@@ -236,7 +247,7 @@ body {
   color: white;
 }
 
-.text-lower {
+.text_lower {
   font-weight: 500;
   width: 260px;
   height: 69px;
@@ -245,7 +256,7 @@ body {
   color: #cac9ff;
 }
 
-.text-summary {
+.text_summary {
   align-self: flex-start;
   font-weight: 700;
   width: 104px;
@@ -255,6 +266,6 @@ body {
   color: #303b59;
 }
 
-.text-opacity-50 {
+.text_opacity_50 {
   opacity: 0.5;
 }
